@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-color",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The color plugin for Mobi.css",
   "main": "index.scss",
   "scripts": {
