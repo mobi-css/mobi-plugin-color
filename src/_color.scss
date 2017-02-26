@@ -1,32 +1,78 @@
-.scroll-view {
-  @include scroll-view();
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-muted {
-  color: $color-text-muted;
-}
-
+.text-muted,
 a.text-muted {
   color: $color-text-muted;
+}
+
+.text-primary,
+a.text-primary {
+  color: $color-text-primary;
+}
+
+.text-success,
+a.text-success {
+  color: $color-text-success;
+}
+
+.text-warning,
+a.text-warning {
+  color: $color-text-warning;
+}
+
+.text-danger,
+a.text-danger {
+  color: $color-text-danger;
+}
+
+.text-inverse,
+a.text-inverse {
+  color: $color-text-inverse;
+}
+
+a.text-muted,
+a.text-primary,
+a.text-success,
+a.text-warning,
+a.text-danger,
+a.text-inverse {
   text-decoration: underline;
 }
 
-.text-small {
-  font-size: $font-size-small;
+.bg-primary {
+  background-color: $color-background-primary;
 }
 
-.text-danger {
-  color: $color-text-danger;
+.bg-success {
+  background-color: $color-background-success;
+}
+
+.bg-warning {
+  background-color: $color-background-warning;
+}
+
+.bg-danger {
+  background-color: $color-background-danger;
+}
+
+.bg-inverse {
+  background-color: $color-background-inverse;
+}
+
+.bg-primary-faded {
+  background-color: $color-background-primary-faded;
+}
+
+.bg-success-faded {
+  background-color: $color-background-success-faded;
+}
+
+.bg-warning-faded {
+  background-color: $color-background-warning-faded;
+}
+
+.bg-danger-faded {
+  background-color: $color-background-danger-faded;
+}
+
+.bg-faded {
+  background-color: $color-background-faded;
 }
