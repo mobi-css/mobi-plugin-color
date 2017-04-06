@@ -1,0 +1,7 @@
+$color-success: hsl(120, 40%, 55%) !default;
+$color-warning: hsl(35, 85%, 60%) !default;
+
+$color-primary-faded: scale-color($color-primary, $red: 80%, $green: 80%, $blue: 80%) !default;
+$color-success-faded: scale-color($color-success, $red: 80%, $green: 80%, $blue: 80%) !default;
+$color-warning-faded: scale-color($color-warning, $red: 80%, $green: 80%, $blue: 80%) !default;
+$color-danger-faded: scale-color($color-danger, $red: 80%, $green: 80%, $blue: 80%) !default;

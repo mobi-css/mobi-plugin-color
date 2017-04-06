@@ -1,16 +1,16 @@
 .text-success,
 a.text-success {
-  color: $color-text-success;
+  color: $color-success;
 }
 
 .text-warning,
 a.text-warning {
-  color: $color-text-warning;
+  color: $color-warning;
 }
 
 .text-inverse,
 a.text-inverse {
-  color: $color-text-inverse;
+  color: $color-background;
 }
 
 a.text-success,
@@ -20,39 +20,39 @@ a.text-inverse {
 }
 
 .bg-primary {
-  background-color: $color-background-primary;
+  background-color: $color-primary;
 }
 
 .bg-success {
-  background-color: $color-background-success;
+  background-color: $color-success;
 }
 
 .bg-warning {
-  background-color: $color-background-warning;
+  background-color: $color-warning;
 }
 
 .bg-danger {
-  background-color: $color-background-danger;
+  background-color: $color-danger;
 }
 
 .bg-inverse {
-  background-color: $color-background-inverse;
+  background-color: $color-text;
 }
 
 .bg-primary-faded {
-  background-color: $color-background-primary-faded;
+  background-color: $color-primary-faded;
 }
 
 .bg-success-faded {
-  background-color: $color-background-success-faded;
+  background-color: $color-success-faded;
 }
 
 .bg-warning-faded {
-  background-color: $color-background-warning-faded;
+  background-color: $color-warning-faded;
 }
 
 .bg-danger-faded {
-  background-color: $color-background-danger-faded;
+  background-color: $color-danger-faded;
 }
 
 .bg-faded {
